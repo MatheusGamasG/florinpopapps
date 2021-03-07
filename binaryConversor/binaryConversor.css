@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background-image:url(bg.jpg);
+    
+    background-size: cover;
+    font-family:'Montserrat', sans-serif;
+    height:100%;
+    text-shadow:1px 1px rgba(0,0,0,0.7);
+}
+
+.container {
+    width:50%;
+    height:50%;
+    margin: 3rem auto;
+    box-sizing:border-box;
+    padding:2rem;
+    border-radius:5rem;
+    background-color:rgba(244, 239, 220,0.5);
+    box-shadow:1px 1px 5px rgb(186, 155, 101);
+    word-wrap:break-word;
+}
+
+.mainTitle {
+    color:black;
+    text-transform:uppercase;
+    text-align:center;
+    margin:2rem;
+}
+
+label, input {
+    display:block;
+    margin:2rem auto;
+    font-size:1.7rem;
+    text-align:center;
+    width:40%;
+    border-radius:5rem;
+    border:none;
+    text-shadow:none;
+}
+
+input {
+    box-shadow:1px 1px 3px black;
+    height:2.5rem;
+}
+
+.errorMessage {
+    color:red;
+    font-weight:bold;
+    text-align:center;
+    font-size:1.7rem;
+    margin:0.5rem;
+}
+
+.errorMessageApagado {
+    display:none;
+}
+
+.button {
+    display: block;
+    margin:auto;
+    width:40%;
+    height:3rem;
+    background:linear-gradient(to right, rgb(19, 52, 99),rgb(54, 95, 183));
+    border-radius:5rem;
+    border:none;
+    box-shadow:1px 1px 3px rgb(19, 52, 99);
+    text-transform:uppercase;
+    font-size:1.7rem;
+    color:rgb(244, 239, 220);
+    text-shadow:1px 1px rgb(0, 0, 0);
+    cursor:pointer;
+    transition:0.5s;
+}
+
+.button:hover {
+    transform:scale(1.05);
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size:14px;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    label, input {
+        margin:0.5rem auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size:12px;
+    }
+    .container {
+        padding:0.5rem;
+        word-wrap:break-word;
+    }
+
+    input, label {
+        margin: 0.5rem auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size:8px;
+    }
+
+    .container {
+        padding:0.5rem;
+    }
+
+    label, input {
+        margin: 0.5rem auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    html {
+        font-size:6px;
+    }
+
+    .container {
+        padding:0.5rem;
+    }
+
+    label, input {
+        margin: 0.5rem auto;
+    }
+}

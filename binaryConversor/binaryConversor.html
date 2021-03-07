@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Decimals Conversor</title>
+    <link rel="stylesheet" type="text/css" href="binaryConversor.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="mainTitle">Binary to Decimal Conversor</h1>
+            <form>
+                <label for="binNumber">Binary Number: </label><input type="text" name="binNumber" class="binNumber" placeholder="Ex: 01010" maxlength="8" required>
+                <p class="errorMessageApagado">O campo só aceita números binários (0 ou 1).</p>
+                <label for="decNumber">Decimal Result: </label><input type="text" name="decNumber" class="decNumber" readonly>
+                <button class="button">Go!</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="principal.js"></script>
+</html>
