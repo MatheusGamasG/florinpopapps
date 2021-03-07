@@ -8,6 +8,31 @@ body {
     text-shadow:1px 1px rgba(0,0,0,0.7);
 }
 
+.buttonHeader {
+        display: block;
+        width:10%;
+        height:2rem;
+        margin:0;
+        background:linear-gradient(to right, rgb(19, 52, 99),rgb(54, 95, 183));
+        border-radius:2rem;
+        border:none;
+        box-shadow:1px 1px 3px rgb(19, 52, 99);
+        text-transform:uppercase;
+        font-size:1rem;
+        color:rgb(244, 239, 220);
+        text-shadow:1px 1px rgb(0, 0, 0);
+        cursor:pointer;
+        transition:0.5s;
+}
+
+.buttonHeader:hover {
+    transform:scale(1.05);
+}
+
+a {
+    text-decoration:none;
+}
+
 .container {
     width:70%;
     height:50%;
@@ -61,7 +86,7 @@ input {
     width:40%;
     height:3rem;
     background:linear-gradient(to right, rgb(19, 52, 99),rgb(54, 95, 183));
-    border-radius:5rem;
+    border-radius:2rem;
     border:none;
     box-shadow:1px 1px 3px rgb(19, 52, 99);
     text-transform:uppercase;
