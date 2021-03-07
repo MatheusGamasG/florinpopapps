@@ -3,15 +3,13 @@
 
 body {
     background-image:url(bg.jpg);
-    
     background-size: cover;
     font-family:'Montserrat', sans-serif;
-    height:100%;
     text-shadow:1px 1px rgba(0,0,0,0.7);
 }
 
 .container {
-    width:50%;
+    width:70%;
     height:50%;
     margin: 3rem auto;
     box-sizing:border-box;
@@ -85,6 +83,7 @@ input {
 
     .container {
         padding: 0.5rem;
+        width:90%;
     }
 
     label, input {
@@ -99,6 +98,7 @@ input {
     .container {
         padding:0.5rem;
         word-wrap:break-word;
+        width:90%;
     }
 
     input, label {
@@ -113,6 +113,7 @@ input {
 
     .container {
         padding:0.5rem;
+        width:90%
     }
 
     label, input {
@@ -127,6 +128,7 @@ input {
 
     .container {
         padding:0.5rem;
+        width:90%;
     }
 
     label, input {
