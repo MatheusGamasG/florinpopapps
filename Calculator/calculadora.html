@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="../reset.css">
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+</head>
+<body>
+    <header><a href="../index.html"><button class="returnButton">Menu</button></a></header>
+    <main>
+        <div class="calcContainer">
+            <h1 class="tituloPrincipal">Calculadora</h1>
+            <div class="resultadoContainer">
+                <input type="text" class="inputResultado" id="numHistory" readonly>
+                <input type="text" class="inputResultado" id="numPrincipal" value="O" readonly>
+            </div>
+            <div class="corpoCalculadora">
+                <ul>
+                    <div class="calcRow">
+                        <li class="calcLi apagarCE">CE</li><li class="calcLi apagarC">C</li><li class="calcLi backspace">&#8617;</li><li class="calcLi operation">/</li>
+                    </div>
+                    <div class="calcRow">
+                        <li class="calcLi number">7</li><li class="calcLi number">8</li><li class="calcLi number">9</li><li class="calcLi operation">*</li>
+                    </div>
+                    <div class="calcRow">
+                        <li class="calcLi number">4</li><li class="calcLi number">5</li><li class="calcLi number">6</li><li class="calcLi operation">-</li>
+                    </div>
+                    <div class="calcRow"><li class="calcLi number">1</li><li class="calcLi number">2</li><li class="calcLi number">3</li><li class="calcLi operation">+</li>
+                    </div>
+                    <div class="calcRow"><li class="calcLi inversao">-/+</li><li class="calcLi number">0</li><li class="calcLi virg">.</li><li class="calcLi equal">=</li></div>           
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer><h3>Matheus Guimarães</h3></footer>
+    <script src="principal.js"></script>
+</body>
+</html>

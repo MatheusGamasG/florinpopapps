@@ -4,6 +4,6 @@ Treinando web development com as ideias do repositório do user <a href="">flori
 
 ## Checklist:
 
-[X] Conversor de número binários para decimais
-[ ] Calculadora
-[ ] Previewer de Bordas CSS Arredondadas
+- [X] Conversor de número binários para decimais
+- [X] Calculadora
+- [ ] Previewer de Bordas CSS Arredondadas
