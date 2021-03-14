@@ -10,7 +10,7 @@ body {
 
 .buttonHeader {
         display: block;
-        width:10%;
+        width:15%;
         height:2rem;
         margin:0;
         background:linear-gradient(to right, rgb(19, 52, 99),rgb(54, 95, 183));
@@ -107,7 +107,6 @@ input {
     }
 
     .container {
-        padding: 0.5rem;
         width:90%;
     }
 
@@ -121,7 +120,6 @@ input {
         font-size:12px;
     }
     .container {
-        padding:0.5rem;
         word-wrap:break-word;
         width:90%;
     }
@@ -137,7 +135,6 @@ input {
     }
 
     .container {
-        padding:0.5rem;
         width:90%
     }
 
@@ -152,8 +149,11 @@ input {
     }
 
     .container {
-        padding:0.5rem;
         width:90%;
+    }
+
+    .buttonHeader {
+        width:20%;
     }
 
     label, input {
