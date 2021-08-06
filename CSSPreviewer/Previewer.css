@@ -10,12 +10,39 @@ html {
     border-radius:2rem;
     padding:2rem;
     box-sizing:border-box;
+    background-color:rgb(104, 73, 161);
+    position:relative;
+}
+
+.returnButton {
+    display: block;
+    width:15%;
+    height:2rem;
+    margin:0;
+    background:linear-gradient(to right, rgb(19, 52, 99),rgb(54, 95, 183));
+    border-radius:2rem;
+    border:none;
+    box-shadow:1px 1px 3px rgb(19, 52, 99);
+    text-transform:uppercase;
+    font-size:1rem;
+    color:rgb(244, 239, 220);
+    text-shadow:1px 1px rgb(0, 0, 0);
+    cursor:pointer;
+    transition:0.5s;
+}
+
+.returnButton:hover {
+    transform:scale(1.05);
+}
+
+a {
+    text-decoration:none;
 }
 
 .previewer {
     height:20rem;
     width:75%;
-    background-color:rgb(157, 71, 214);
+    background-color:rgb(185, 148, 255);
     border:5px solid black;
     border-radius:25%;
     display:inline-block;
@@ -24,15 +51,17 @@ html {
 
 .mainText {
     text-align:center;
+    text-shadow:3px 3px 3px rgb(85, 82, 82);
+    text-transform:uppercase;
+    color:white;
 }
 
 .inputTopSize {
-    width:75%;
+    width:75%;    
     display:block;
     margin:5% auto;
-    background-color:rgba(0,0,0,0.3);
 }
-
+  
 .inputRightSize {
     display:inline-block;
     height:20rem;
@@ -53,8 +82,107 @@ html {
     margin:5% auto;
 }
 
+.clickableContent {
+    background-color:rgb(131, 123, 232);
+    width:30%;
+    min-height:1.5rem;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    border-radius:1rem;
+    padding:0.5rem;
+    cursor:pointer;
+}
+
+.invContent {
+    margin:auto;
+    display:block;
+    background-color:rgb(182, 182, 182);
+    cursor:default;
+}
+
+.clickableContent > h2 {
+    font-size:1.5rem;
+    text-align:center;
+    color:rgb(0,0,0);
+    text-shadow:5px 5px 5px rgb(128, 128, 128);
+    margin:0.1rem;
+}
+
 @media screen and (max-width:1200px) {
     .container {
         width:80%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .previewer {
+        width:80%
+    }
+
+    .inputLeftSize {
+        width:5%;
+    }
+
+    .inputRightSize {
+        width:5%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .previewer {
+        width:80%
+    }
+
+    .inputLeftSize {
+        width:5%;
+    }
+
+    .inputRightSize {
+        width:5%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .previewer {
+        width:75%
+    }
+
+    .inputLeftSize {
+        width:5%;
+        margin:0 2.5% 0 0;
+    }
+
+    .inputRightSize {
+        width:5%;
+        margin:0 0 0 2.5%;
+    }
+
+    .clickableContent > h2 {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width:330px) {
+    html {
+        font-size:12px;
+    }
+
+    .previewer {
+        width:70%;
+        height:10rem;
+    }
+
+    .inputLeftSize {
+        height:10rem;
+        width:5%;
+    }
+
+    .inputRightSize {
+        height:10rem;
+        width:5%;
+    }
+
+    .clickableContent > h2 {
+        word-wrap: break-word;
     }
 }
