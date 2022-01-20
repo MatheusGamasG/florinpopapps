@@ -1,0 +1,162 @@
+html {
+    background-image:url('annie-spratt-VDXtVYJVj7A-unsplash.jpg');
+}
+
+.title {
+    color:rgb(137, 223, 103);
+    text-shadow:1px 1px 4px rgb(64, 87, 100);
+    text-align:center;
+}
+
+.mainContainer {
+    display:flex;
+    margin:auto;
+    justify-content: center;
+}
+
+.circle {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    margin: 1rem;
+    background-color:rgb(65, 61, 61);
+}
+
+.red {
+    background-color: rgb(184, 53, 53);
+    animation-name:piscaRed;
+    animation-duration:0.7s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.blue {
+    background-color:rgb(44, 46, 175);
+    animation-name:piscaBlue;
+    animation-duration:0.7s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:0.7s;
+}
+
+.purple {
+    background-color: rgb(85, 81, 143);
+    animation-name:piscaPurple;
+    animation-iteration-count: infinite;
+    animation-duration:0.7s;
+    animation-direction:alternate;
+}
+
+.green {
+    background-color: rgb(52, 151, 90);
+    animation-name:piscaGreen;
+    animation-delay:0.7s;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+.orange {
+    background-color: rgb(197, 139, 14);
+    animation-name:piscaOrange;
+    animation-duration:0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.brown {
+    background-color: rgb(110, 50, 1);
+    animation-name:piscaBrown;
+    animation-duration:0.7s;
+    animation-delay:0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.pink {
+    background-color: rgb(222, 115, 226);
+    animation-name:piscaPink;
+    animation-duration:0.7s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+.btnContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.btn {
+    width:5rem;
+    height:2rem;
+    border-radius:10px;
+    text-transform:uppercase;
+    margin:0.2rem;
+    background-color:rgb(209, 146, 94);
+    box-shadow:2px 2px 3px 1px rgba(7, 7, 7, 0.4);
+    border:none;
+    font-weight:bold;
+}
+
+.btn:hover {
+    background-color:rgb(146, 107, 74);
+    transition:1s;
+    cursor:pointer;
+}
+
+@keyframes piscaRed {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(184, 53, 53, 0.8), -10px -0px 10px 10px rgb(184, 53, 53, 0.8);
+    }
+}
+
+@keyframes piscaBlue {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(44, 46, 175, 0.8), -10px -0px 10px 10px rgb(44, 46, 175, 0.8);
+    }
+}
+
+@keyframes piscaPurple {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(85, 81, 143, 0.8), -10px -0px 10px 10px rgb(85, 81, 143, 0.8);
+    }
+}
+
+@keyframes piscaGreen {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(52, 151, 90, 0.8), -10px -0px 10px 10px rgb(52, 151, 90, 0.8);
+    }
+}
+
+@keyframes piscaOrange {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(197, 139, 14, 0.8), -10px -0px 10px 10px rgb(197, 139, 14, 0.8);
+    }
+
+}
+@keyframes piscaBrown {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(110, 50, 1, 0.8), -10px -0px 10px 10px rgb(110, 50, 1, 0.8);
+    }
+}
+
+@keyframes piscaPink {
+    from {box-shadow:none;
+    }
+    to {
+        box-shadow:10px 0px 10px 10px rgb(222, 115, 226, 0.8), -10px -0px 10px 10px rgba(222, 115, 226, 0.8);
+    }
+}
