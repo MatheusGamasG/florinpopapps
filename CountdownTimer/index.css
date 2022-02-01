@@ -1,0 +1,24 @@
+html {
+    background: #6060ca;
+}
+
+.mainContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.mainTitle {
+    text-align:center;
+}
+
+.countdownDiv {
+    border: 3px solid rgb(212, 162, 68);
+    background-color:rgb(212, 185, 134);
+    display:inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin: 1rem 0.2rem;
+    padding:0;
+    text-align:center;
+}
