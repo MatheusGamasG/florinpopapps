@@ -40,23 +40,15 @@ body {
 }
 
 .mainContainer {
-    display:block;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    text-align:center;
     margin:auto;
     width:70%;
-    min-height:30rem;
+    min-height:10rem;
     background-color:rgb(158, 191, 241);
     box-shadow:2px 2px 5px rgba(0,0,0,0.6);
-}
-
-ul {
-    margin:0;
-    text-align:justify;
-}
-
-ul:after {
-    content:'';
-    width:100%;
-    display:inline-block;
 }
 
 .ancoraLi {
