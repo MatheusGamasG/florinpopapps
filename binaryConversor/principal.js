@@ -4,7 +4,7 @@ function executaConversao(evento) {
     let somaTotal = 0;
     let valor;
     let c = 0;
-  //  numBinario = parseInt(numBinario, 2);
+    // c corresponde à posição do número no array binário e o indexador do for corresponde à elevação da potência.
     for(let i = numBinario.length - 1; i >= 0; i--) {
         valor = numBinario[c] * Math.pow(2, i);
         somaTotal += valor;
