@@ -2,18 +2,21 @@ html {
     background: #6060ca;
 }
 
-.mainContainer {
-    display:flex;
-    justify-content: center;
-}
-
-.mainTitle {
+.titulo-principal {
     text-align:center;
+    color:#f7d875;
 }
 
-.countdownDiv {
-    border: 3px solid rgb(212, 162, 68);
-    background-color:rgb(212, 185, 134);
+.main-container {
+    display:flex;
+    width:60%;
+    margin:0 auto;
+    justify-content: center;
+    background-color:#ececec;
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.6);
+}
+
+.main-container__countdown {
     display:inline-block;
     border-radius: 50%;
     width: 100px;
@@ -21,4 +24,36 @@ html {
     margin: 1rem 0.2rem;
     padding:0;
     text-align:center;
+}
+
+.main-container__countdown p {
+    font-size: 1.375rem;
+    margin: 1rem 0;
+    font-weight:600;
+}
+
+.main-container__time-remaining {
+    font-size: 1.375rem;
+    font-weight:500;
+}
+
+.input-container {
+    display:flex;
+    padding:1rem;
+    justify-content:center;
+    align-items:center;
+}
+
+.input-container input {
+    margin:1rem;
+    width:10%;
+    text-align:center;
+    height:3rem;
+}
+
+.input-container__start {
+    margin:1rem;
+    align-self:stretch;
+    width:6%;
+    cursor:pointer;
 }

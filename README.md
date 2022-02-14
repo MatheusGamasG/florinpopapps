@@ -10,6 +10,13 @@ Treinando web development com as ideias do repositório do user <a href="https:/
 - [X] Calculadora
 - [X] Previewer de Bordas CSS Arredondadas
 - [X] Christmas Lights
+- [ ] Color Cycle
+- [X] Countdown Timer
+- [ ] CSV2JSON App
+- [ ] Dollar to Cents
+- [ ] Dynamic CSS Variables
+- [ ] First DB App
+- [ ] Flip Image
 
 ##### Projetos Intermediários
 

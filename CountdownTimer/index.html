@@ -12,35 +12,37 @@
 
     </header>
     <main>
-        <p class="mainTitle">Countdown Timer</p>
-        <div class="mainContainer">
-            <div class="countdownDiv">
+        <h1 class="titulo-principal">Countdown Timer</h1>
+        <div class="main-container">
+            <div class="main-container__countdown">
                 <p>Dias</p>
-                <div class="timeRemaining">0</div>
+                <div class="main-container__time-remaining">0</div>
             </div>
-            <div class="countdownDiv">
+            <div class="main-container__countdown">
                 <p>Horas</p>
-                <div class="timeRemaining">0</div>
+                <div class="main-container__time-remaining">0</div>
             </div>
-            <div class="countdownDiv">
+            <div class="main-container__countdown">
                 <p>Minutos</p>
-                <div class="timeRemaining">0</div>
+                <div class="main-container__time-remaining">0</div>
             </div>
-            <div class="countdownDiv">
+            <div class="main-container__countdown">
                 <p>Segundos</p>
-                <div class="timeRemaining">0</div>
+                <div class="main-container__time-remaining">0</div>
             </div>
         </div>
+        <section>
+            <div class="input-container">
+                <input name="evento" placeholder="Nome do Evento"/>
+                <input name="data" type="date" placeholder="Data" class="input-container__data"/>
+                <input name="horario" type="time" placeholder="Horario (Opcional)" class="input-container__horario">
+                <button class="input-container__start">Start!</button>                
+            </div>
+        </section>
     </main>
-    <section>
-        <input name="Evento" placeholder="Nome do Evento"/>
-        <input name="Data" type="date" placeholder="Data" class="data"/>
-        <input name="Minutos" type="time" placeholder="Minutos (Opcional)">
-        <button class="start">Start!</button>
-        <script type="text/javascript" src="data.js"></script>
-    </section>
     <footer>
 
     </footer>
+    <script type="text/javascript" src="data.js"></script>
 </body>
 </html>
